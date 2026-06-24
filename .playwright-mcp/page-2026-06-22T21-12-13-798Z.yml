@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a simple button component
+            - img [ref=e61]
+          - generic [ref=e64]:
+            - img [ref=e67]
+            - generic [ref=e72]:
+              - generic [ref=e75]: Creating /App.jsx
+              - separator [ref=e76]
+              - paragraph [ref=e78]: "Now I'll create the Button component:"
+              - generic [ref=e81]: Creating /components/Button.jsx
+              - generic [ref=e82]:
+                - img [ref=e83]
+                - generic [ref=e85]: Generating...
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e86]:
+        - generic [ref=f8e4]:
+          - button "Primary Button" [ref=f8e5] [cursor=pointer]
+          - button "Secondary Button" [ref=f8e6] [cursor=pointer]
+          - button "Outline Button" [ref=f8e7] [cursor=pointer]
+          - button "Disabled Button" [disabled] [ref=f8e8]
+  - alert [ref=e48]

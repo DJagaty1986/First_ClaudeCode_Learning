@@ -1,0 +1,10 @@
+{
+  "commands": {
+    "customDir": "commands",
+    "autoLoad": true
+  },
+  "permissions": {
+    "allow": ["mcp__playwright"],
+    "deny": []
+  }
+}

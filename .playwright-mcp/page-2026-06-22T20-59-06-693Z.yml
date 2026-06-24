@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a simple button component
+            - img [ref=e60]
+          - generic [ref=e84]:
+            - img [ref=e87]
+            - generic [ref=e92]:
+              - generic [ref=e95]: str_replace_editor
+              - separator [ref=e96]
+              - generic [ref=e99]: str_replace_editor
+              - separator [ref=e100]
+              - paragraph [ref=e102]: Done! Created a reusable Button component with primary, secondary, and danger variants, plus disabled state support.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e103]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111] [cursor=pointer]:
+              - img [ref=e112]
+              - img [ref=e114]
+              - generic [ref=e116]: components
+            - generic [ref=e119] [cursor=pointer]:
+              - img [ref=e120]
+              - generic [ref=e125]: Button.jsx
+          - generic [ref=e127] [cursor=pointer]:
+            - img [ref=e128]
+            - generic [ref=e133]: App.jsx
+        - separator [ref=e134]
+        - code [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - generic [ref=e158]: "1"
+              - generic [ref=e160]: "2"
+              - generic [ref=e161]:
+                - generic [ref=e162] [cursor=pointer]: 
+                - generic [ref=e163]: "3"
+              - generic [ref=e164]:
+                - generic [ref=e165] [cursor=pointer]: 
+                - generic [ref=e166]: "4"
+              - generic [ref=e167]:
+                - generic [ref=e168] [cursor=pointer]: 
+                - generic [ref=e169]: "5"
+              - generic [ref=e171]:
+                - generic [ref=e172] [cursor=pointer]: 
+                - generic [ref=e173]: "6"
+              - generic [ref=e175]: "7"
+              - generic [ref=e177]: "8"
+              - generic [ref=e180]: "9"
+              - generic [ref=e183]: "10"
+              - generic [ref=e185]: "11"
+              - generic [ref=e187]: "12"
+            - generic [ref=e149]:
+              - generic [ref=e286]: import Button from '@/components/Button';
+              - generic [ref=e288]: "export default function App() {"
+              - generic [ref=e290]: return (
+              - generic [ref=e292]: <div className="flex items-center
+              - generic [ref=e294]: <div className="space-y-4">
+              - generic [ref=e296]: <Button>Default Button</Button>
+              - generic [ref=e298]: <Button variant="secondary">Secondary
+              - generic [ref=e300]: <Button variant="danger">Danger Button</
+              - generic [ref=e302]: Button>
+              - generic [ref=e304]: <Button disabled>Disabled Button</Button>
+              - generic [ref=e306]: </div>
+              - generic [ref=e308]: </div>
+            - textbox "Editor content" [ref=e153]: "{...props} > {children} </button> ); }"
+  - alert [ref=e47]
+  - generic [ref=e155]:
+    - alert
+    - alert

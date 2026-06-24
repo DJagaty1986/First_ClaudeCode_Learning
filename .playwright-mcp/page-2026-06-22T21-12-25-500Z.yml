@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a simple button component
+            - img [ref=e61]
+          - generic [ref=e87]:
+            - img [ref=e90]
+            - generic [ref=e95]:
+              - generic [ref=e98]: Creating /App.jsx
+              - separator [ref=e99]
+              - paragraph [ref=e101]: "Now I'll create the Button component:"
+              - generic [ref=e104]: Creating /components/Button.jsx
+              - separator [ref=e105]
+              - paragraph [ref=e107]: Done. Created a Button component with three variants (primary, secondary, outline) and disabled state support. Includes smooth transitions, focus rings, and active scale effects.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e86]:
+        - generic [ref=f8e4]:
+          - button "Primary Button" [ref=f8e5] [cursor=pointer]
+          - button "Secondary Button" [ref=f8e6] [cursor=pointer]
+          - button "Outline Button" [ref=f8e7] [cursor=pointer]
+          - button "Disabled Button" [disabled] [ref=f8e8]
+  - alert [ref=e48]
